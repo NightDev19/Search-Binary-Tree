@@ -1,3 +1,4 @@
-./binarySearchTree.vcxproj
-./binarySearchTree.vcxproj.filters
-./binarySearchTree.vcxproj.user
+binarySearchTree.vcxproj
+binarySearchTree.vcxproj.filters
+binarySearchTree.vcxproj.user
+x64/
