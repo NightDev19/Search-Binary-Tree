@@ -38,7 +38,7 @@ This document explains each function in the provided Binary Search Tree (BST) im
 
 ## Program Code
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -62,7 +62,7 @@ The constructor initializes value with the given value, and both left and right 
 
 ## 1. insert Function
 
-```
+```cpp
 void insert(Node*& root, int value) {
     if (root == nullptr) {
         root = new Node(value); 
@@ -95,7 +95,7 @@ The recursive calls continue until the correct position for the new node is foun
 
 ## 2. findMin Function
 
-```
+```cpp
 Node* findMin(Node* root) {
     while (root && root->left != nullptr) {
         root = root->left;
@@ -113,7 +113,7 @@ Purpose: Finds the minimum value node in the BST.
 This function is used in deletion operations when a node has two children and we need to find the inorder successor (the smallest node in the right subtree).
 
 ## 3. delNode Function
-```
+```cpp
 void delNode(Node*& root, int value) {
     if (root == nullptr) return; 
 
@@ -170,7 +170,7 @@ void delNode(Node*& root, int value) {
 
 ## 4. inorder Function
 
-```
+```cpp
 void inorder(Node* root) {
     if (root == nullptr) return;
     inorder(root->left);
@@ -193,7 +193,7 @@ void inorder(Node* root) {
 </ul>
 
 ## main() Function
-```
+```cpp
 int main() {
     Node* root = nullptr;
 
