@@ -30,8 +30,6 @@ The constructor initializes value with the given value, and both left and right 
 
 Certainly! Below is the Markdown (MD) file explaining the C++ code function by function.
 
-markdown
-Copy code
 # Binary Search Tree (BST) Code Explanation
 
 This document explains each function in the provided Binary Search Tree (BST) implementation in C++. It includes the purpose of each function and a step-by-step explanation of how it works.
